@@ -15,6 +15,10 @@ Obviously, if you plan on using the mySQL version of the script then you will re
 
 ## The mySQL Version 
 
+1. Condifure mySQL
+2. Edit the variables in lines 4-6 to match accordingly with the Username, Password, and Database that you have configured in mySQL
+3. 
+
 ## The Basic Version
 
 # Deploying the Scripts
