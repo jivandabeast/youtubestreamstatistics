@@ -11,8 +11,12 @@ The script is very minimalistic and depends on a few packages (some which should
 
 Obviously, if you plan on using the mySQL version of the script then you will require mySQL (`mysql-server`)
 
-# Configuring the scripts
+# Configuring the Scripts
 
 ## The mySQL Version 
 
 ## The Basic Version
+
+# Deploying the Scripts
+
+# Graphing the Data with R
