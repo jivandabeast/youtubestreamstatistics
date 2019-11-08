@@ -1,5 +1,13 @@
 # YouTube Stream Statistics 
 
+## Table of Contents
+
+1. [Dependencies](https://github.com/jivandabeast/youtubestreamstatistics#dependencies)
+2. [Configuring the mySQL script](https://github.com/jivandabeast/youtubestreamstatistics#the-mysql-version-this-is-the-recommended-version)
+3. [Configuring the basic script](https://github.com/jivandabeast/youtubestreamstatistics#the-basic-version)
+4. [Deploying the script](https://github.com/jivandabeast/youtubestreamstatistics#deploying-the-scripts)
+5. [Graphing the data you've collected with R](https://github.com/jivandabeast/youtubestreamstatistics#graphing-the-data-with-r)
+
 A bash script useful for gathering data from YouTube streams, specifically current live stream viewers. 
 
 # Dependencies
@@ -68,3 +76,10 @@ The steps to graph your data using R are as follows:
      - **Note**: There is no space between `-p` and your password
    - To import it into the environment, run: 
      - `myData <- read.delim(file.choose(), header=TRUE)`
+4. Create a new dataset containing the epoch time column, and then convert it to a better format
+   - `times <- myData$EpochTime`
+   - `times <- anytime(times)`
+5. Plot the data on the graph
+   - `plot(ViewCount ~ times, myData, xaxt = "n", type = "l")`
+6. Edit the x-axis labels 
+   - `axis(1, times, format(times, "%T"), cex.axis = .7)`
