@@ -72,7 +72,7 @@ The steps to graph your data using R are as follows:
    - `library(anytime)`
 3. Export your mySQL data from the database and import it into the environment
    - To export your mySQL data, open a shell and run (fill in all bracketed terms):
-     - `mysql -u [USERNAME] -p[PASSWORD] -D [DATABASE] -e "SELECT * FROM ViewCount" > [OUTPUTFILE]
+     - `mysql -u [USERNAME] -p[PASSWORD] -D [DATABASE] -e "SELECT * FROM ViewCount" > [OUTPUTFILE]`
      - **Note**: There is no space between `-p` and your password
    - To import it into the environment, run: 
      - `myData <- read.delim(file.choose(), header=TRUE)`
