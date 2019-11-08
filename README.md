@@ -1,5 +1,7 @@
 # YouTube Stream Statistics 
 
+A bash script useful for gathering data from YouTube streams, specifically current live stream viewers. 
+
 ## Table of Contents
 
 1. [Dependencies](https://github.com/jivandabeast/youtubestreamstatistics#dependencies)
@@ -7,8 +9,6 @@
 3. [Configuring the basic script](https://github.com/jivandabeast/youtubestreamstatistics#the-basic-version)
 4. [Deploying the script](https://github.com/jivandabeast/youtubestreamstatistics#deploying-the-scripts)
 5. [Graphing the data you've collected with R](https://github.com/jivandabeast/youtubestreamstatistics#graphing-the-data-with-r)
-
-A bash script useful for gathering data from YouTube streams, specifically current live stream viewers. 
 
 # Dependencies
 
