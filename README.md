@@ -21,7 +21,8 @@ Obviously, if you plan on using the mySQL version of the script then you will re
 
 # Configuring the Scripts
 
-## The mySQL Version *this is the recommended version*
+## The mySQL Version 
+*this is the recommended version*
 
 1. Configure mySQL
    - [Install mySQL](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04)
