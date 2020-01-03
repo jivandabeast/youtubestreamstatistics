@@ -84,3 +84,9 @@ The steps to graph your data using R are as follows:
    - `plot(ViewCount ~ times, myData, xaxt = "n", type = "l")`
 6. Edit the x-axis labels 
    - `axis(1, times, format(times, "%T"), cex.axis = .7)`
+
+# Credits
+
+My script relies heavily on a tool created by [Chris Plays Games](https://chrisplaysgames.com/views). Using his tool I was able to look at the source code an adapt it into a bash script that logs the data rather than displaying it.
+
+Check out his stuff and show him some love
